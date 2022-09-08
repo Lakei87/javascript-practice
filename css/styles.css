@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    padding: 0;
+}
+
+.newsBox {
+    width: 1460px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news__item {
+    width: calc(100% / 2 - 30px);
+    background-color: skyblue;
+    margin: 10px;
+}
+
+.news__image {
+    width: 400px;
+    height: auto;
+}
